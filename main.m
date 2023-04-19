@@ -1,5 +1,4 @@
 clc;clear;close all;
-% filename = {'Aggregation', 'flame',  'Spiral', 'R15', 'S2', 'S3', 'S4',  'A3', 'D31'};
 filename = readtable('datasets/synthetic/S2.xlsx');
 dataRaw = table2array(filename(:, 1:end-1));
 tlabels = table2array(filename(:, end));
